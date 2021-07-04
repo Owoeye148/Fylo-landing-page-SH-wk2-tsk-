@@ -1,0 +1,496 @@
+body {
+  background-color: hsl(217, 21%, 19%);
+  font-family: sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  color: white;
+  width: fit-content;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  width: 95%;
+  height: 20vh;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header ul li {
+  color: white;
+  list-style: none;
+  margin: 0 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+header ul li:hover {
+  text-decoration: underline;
+}
+.intro-image-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin-bottom: 4%;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+  background-image: url("/assets/img/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro-items-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -19%;
+  width: 100%;
+}
+.intro-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.intro-items h2 {
+  width: 40%;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 40px;
+  font-size: 35px;
+}
+.intro-items p {
+  width: 40%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 24px;
+}
+.intro-items button {
+  background-color: hsl(176, 68%, 64%);
+  border: none;
+  height: 3.5vh;
+  width: 15%;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+.intro-items button:hover {
+  background-color: hsl(176, 68%, 64%);
+  opacity: 0.9;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218, 28%, 13%);
+}
+.benefit-container {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  width: 55%;
+  justify-content: center;
+  justify-self: center;
+}
+.benefit-row {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+}
+.benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.benefit div {
+  display: flex;
+  justify-content: center;
+}
+.benefit div {
+  text-align: center;
+  width: 70%;
+}
+.stay-productive-cont {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+  width: auto;
+}
+.productivity-img {
+  display: flex;
+  justify-content: center;
+}
+.productivity-text-cont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.productivity-text {
+  width: 72%;
+}
+.productivity-text h1 {
+  width: 70%;
+}
+.productivity-text a {
+  display: flex;
+  flex-direction: row;
+  color: hsl(176, 68%, 64%);
+}
+#bg-quotes img {
+  margin-left: 10%;
+}
+.testimonial-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.testimonials {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -0.6%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-cont {
+  width: 100%;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+}
+.testimonial {
+  margin: 40px 0px 25px 25px;
+}
+.testifier {
+  display: flex;
+  align-items: center;
+}
+.testifier img {
+  border-radius: 65px;
+  size: 0.5em;
+}
+.testifier h3 {
+  line-height: 0.3em;
+}
+.name-title {
+  margin-left: 10px;
+}
+.cta-container {
+  margin-top: -10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cta-inner {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: hsl(220, 27%, 17%);
+  border-radius: 10px;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 75%;
+}
+.cta h2 {
+  font-size: 40px;
+  line-height: 0.1em;
+}
+.cta p {
+  text-align: center;
+}
+.cta .email-cta {
+  width: 110%;
+  display: flex;
+  justify-content: center;
+}
+.email-cta input {
+  width: 70%;
+  height: 3em;
+  margin-right: 2em;
+  border-radius: 50px;
+}
+.email-cta button {
+  width: 30%;
+  height: 3em;
+  border-radius: 50px;
+  background-color: hsl(176, 68%, 64%);
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+.email-cta button:hover {
+  background-color: hsl(176, 68%, 64%);
+  opacity: 0.9;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20%;
+  height: auto;
+  width: 100%;
+  background-color: hsl(216, 53%, 9%);
+}
+.last-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.logo {
+  width: 90%;
+}
+.last-container-menu {
+  width: 90%;
+  display: flex;
+  gap: 40px;
+  margin: 30px 0;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+.location p {
+  margin: 0 20px;
+  width: 70%;
+}
+.phone-email {
+  width: 20%;
+  justify-content: center;
+}
+.phone {
+  display: flex;
+  margin-bottom: 20px;
+}
+.phone p,
+.email p,
+.nav ul {
+  margin: 0 20px;
+}
+.email {
+  display: flex;
+}
+.nav {
+  width: 10%;
+}
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.nav ul li:hover {
+  font-weight: bold;
+}
+.social-icons {
+  display: flex;
+  gap: 25px;
+  margin-left: 7%;
+  cursor: pointer;
+}
+.social-icons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vh;
+  height: 3vh;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.social-icons div:hover {
+  border: 1px solid hsl(176, 68%, 64%);
+}
+.social-icons div i:hover {
+  color: hsl(176, 68%, 64%);
+}
+
+@media (max-width: 400px) {
+  header {
+    height: 20vh;
+  }
+  header ul li {
+    font-size: 1.5em;
+  }
+  .intro {
+    background-image: url("/assets/img/bg-curvy-mobile.svg");
+    height: 54vh;
+    margin-top: -10%;
+  }
+  .intro-items-cont {
+    margin-top: 48%;
+    margin-bottom: 0%;
+  }
+  .intro-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+  }
+  .intro-items h2 {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+  }
+  .intro-items p {
+    width: 90%;
+  }
+  .intro-items button {
+    width: 60%;
+    height: 12vh;
+    font-size: 1.5em;
+  }
+  .intro-items img {
+    size: 0.8em;
+  }
+  .benefit-container {
+    margin-top: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  .benefit-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .benefit p {
+    font-size: 1.4em;
+    line-height: 2em;
+  }
+  .stay-productive-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .productivity-text h1 {
+    width: 100%;
+    font-size: 1.8em;
+  }
+  .testimonial-container {
+    margin-bottom: 50%;
+  }
+  .testimonials {
+    flex-direction: column;
+  }
+  .testimonial {
+    width: 80%;
+  }
+  .testimonial p,
+  .productivity-text p {
+    font-size: 1.4em;
+  }
+  .cta {
+    height: auto;
+    margin: 20px auto;
+  }
+  .cta-container {
+    height: auto;
+    margin-top: -35%;
+  }
+  .cta-inner {
+    width: 80%;
+    height: auto;
+  }
+  .cta h2 {
+    font-size: 2.2em;
+  }
+
+  .cta p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  .cta .email-cta {
+    width: 100%;
+  }
+  .email-cta {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 20px;
+  }
+  .email-cta input {
+    margin: 0 auto;
+    width: 100%;
+    height: 5.5em;
+    justify-content: center;
+  }
+  .email-cta button {
+    height: 4em;
+    width: 100%;
+    font-size: larger;
+  }
+  .last-container-menu {
+    flex-direction: column;
+  }
+  .location,
+  .phone-email,
+  .nav,
+  .social-icons {
+    width: 100%;
+  }
+  .social-icons {
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-icons div {
+    width: 6vh;
+    height: 6vh;
+  }
+  .location p,
+  .last-container-menu p,
+  .nav ul {
+    font-size: 1.68em;
+    line-height: 1.3em;
+  }
+  .location p {
+    margin-top: -1%;
+  }
+  .phone,
+  .email {
+    align-items: center;
+  }
+  .nav ul {
+    margin-left: -6%;
+  }
+}
