@@ -341,7 +341,7 @@ footer {
   color: hsl(176, 68%, 64%);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   header {
     height: 20vh;
   }
